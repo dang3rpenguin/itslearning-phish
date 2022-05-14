@@ -10,7 +10,7 @@ I will not be held liable for any damages caused by this project nor will I be h
 
 ## Authors
 
-- [@dang3rpenguin](https://github.com/dang3rpenguin)
+- [@dang3rpenguin](https://github.com/dang3rpenguin) \
 Contact me for any concerns or any other topic, I am more than happy to remove this project off GitHub if requested: dang3rpenguin@protonmail.com
 
 ## Screenshots
