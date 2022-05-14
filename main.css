@@ -1,0 +1,170 @@
+/* 
+    Document   : brb, gone fishing ;)
+    Created on : January 1st, 1970 at 00:00:00 UTC
+    Author     : Danger Penguin.
+    Description:
+        let's meet at our redenzvous?
+        Sloppy, and shite css, literally done in like 30 minutes idk. Serves it purpose tho.
+*/
+
+:root {
+    --login:#428bca;
+    --glemtpassord:#5bc0de;
+    font-family:Helvetica, Arial, sans-serif;
+    font-size:16px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+input{
+    box-sizing: border-box;
+    border: solid 1px #cccccc;
+    padding: 10px;
+    width: 300px;
+    height: 44.85px;
+    box-shadow: inset 0px 1px #fafafa;
+}
+
+input:focus{
+    border: solid 1px #8ab9df;
+    box-shadow: 0px 0px 10px #8ab9df;
+    outline: none;
+    z-index: 10; 
+}
+
+::placeholder{
+    color:#cbcbcb;
+    font-family: Helvetica,Arial, sans-serif;
+    font-size: larger;
+}
+#username{
+    margin-bottom: -1px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+#password{
+    margin-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+
+#logg-inn{
+    width: 300px;
+    height:46px;
+    box-sizing: border-box;
+    background-color: var(--login);
+    color:white;
+    border-radius: 7.5px;
+    border: solid 1px #3b84c3;
+    font-size: large;
+}
+#logg-inn:hover{
+    cursor: pointer;
+    background-color: #3276b1;
+    border-color: #2f5c84;
+}
+
+#glemt-passord {
+    box-sizing: border-box;
+    width:300px;
+    line-height:20px;
+    border: solid 1px #46b8da;
+    background-color: var(--glemtpassord);
+    color: white;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9em;
+}
+#glemt-passord:hover{
+    background-color: #38b2d6;
+    border-color: #2299bc;
+}
+h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: normal; 
+    box-sizing: border-box;
+    height:33px;
+    width:300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+/*
+                                                 :                                        
+                                 :      ..:::::::-:                                       
+                            .:  .:=. :-++****+++++++=-.   =#+                             
+                           .*++  -=++**####*****+***++==-=+##                             
+                           -*++*-+**########**####****++++=--                             
+                           :*++#%####%%#%###**###*+++===++++=-.                           
+                          .-*+*%##%#%%%%######*+=-:...-:.::-===.                          
+                          =*++%@##%%@@%%%%%%#*-::.-=--=--:-*#*+=.                         
+                          :*+*@%%%@%@@@%%%%#*+-:...::----:..+*++-                         
+                         =***%%@%@@@@@@@%##*+-..... .:-==--..=++=.                        
+                         :##%@@%%%@@@%%%#*+-:-%#+:. .:++===-..++=:                        
+                          *#%%@%@@@@%%@%#*-..-%%#-...======--..+=:                        
+                          #@%%@@@@@@%%%##*-.    .. ..-===----. ==:                        
+                         .*%%%@@@@@@%#%**=:..        .-==---.  -=.                        
+                         :#%%%%@%@@@@%#*+:...           ...    --                         
+                         :#%@%@@@%%@%##**-....                 -.                         
+                         .#%@@%@@@%%%##*+:...                 .-                          
+                          *%@@@@@@@@%%%*+=-..      .          .=-:.                       
+                         .*%@@@@@@@@@@%%#*+-..                .==+==:                     
+                        .+*#%%#%%%%%@@%##+:..                  :==#*=-.                   
+                       .=+*#######%##%%%#+:.                    .==**=-                   
+                      -**########*#**#%%**..                     .==#*=-                  
+                     =***########*#*#%@%#+.                       .=+*+-                  
+                  .-+*+**#******+***%%%%#-.                        :-=-                   
+                 :+**#***##********%@%%#+:.                        .=:                    
+                .+**#######******#%@%%#*-.                          --                    
+                 =*############@@@%@%#*+.                           -=.                   
+                 :++**#*#%%@@@@@@@@%#**-.                           :=.                   
+                   ..+##@@@@@@@@@%@%#*+:                            :=.                   
+                    .*#@@@@@%@@@%%%%#*+:                            :=.                   
+                    .#%%%%%@@%%%%%%%#*=.                            -=                    
+                     *#%@%%%%%%%@%%%#+=:..                         .=:                    
+                     -##%%%@%##%%%%%#+-:...                     ...:=                     
+                      =#%%%@@@%%%%%##+=:..........            .::::--                     
+                       =#%%%%%%%%%%%%*+--::::::::....       .:------=-:                   
+                        :*%%%%%%%%%%%#**+=----::--::........:=++==-=+=-                   
+                          -*#%%%#%%%%%%%+==++==--==-:..        ......                     
+                               .::::-:-:.::--==-::-:           
+                               
+                               
+
+[Verse 1]
+Heartaches, heartaches
+My loving you meant only heartaches
+Your kiss was such a sacred thing to me
+I can't believe it's just a burning memory
+
+[Verse 2]
+Heartaches, heartaches
+What does it matter how my heart breaks?
+I should be happy with someone new
+But my heart aches for you
+*/
