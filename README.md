@@ -1,5 +1,5 @@
 
-# RFK.ITSLEARNING PHISH
+# ITSLEARNING PHISH
 
 A project recreating the rfk.itslearning login page,
 this recreated page serves the login details directly to the console.
