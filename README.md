@@ -6,7 +6,7 @@ this recreated page serves the login details directly to the console.
 Acting as a phish. This is merely to serve as an example of how a phishing website can be created.
 
 ## Disclaimer:
-I will not be held liable for any damages caused by this project nor will I be held liable for any other problems that occurs from this project. This is purely for educational purposes.  
+I will not be held liable for any damages caused by this project nor will I be held liable for any other problems that occurs from this project. This is purely for educational purposes.  See to the LICENSE, for more information.
 
 ## Authors
 
