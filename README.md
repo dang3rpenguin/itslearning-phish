@@ -21,7 +21,7 @@ Contact me for any concerns or any other topic, I am more than happy to remove t
 
 MIT License
 
-Copyright (c) 2022 Simon Brown.
+Copyright (c) 2022 dang3rpenguin
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
