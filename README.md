@@ -2,7 +2,7 @@
 # ITSLEARNING PHISH
 
 A project recreating the rfk.itslearning login page,
-this recreated page serves the login details directly to the console.
+this recreated page serves the login details directly to the console. It also stores them in a text file named "pwned.txt", for later use or if the server suddenly goes offline.
 Acting as a phish. This is merely to serve as an example of how a phishing website can be created.
 
 ## Disclaimer:
