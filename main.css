@@ -27,7 +27,9 @@ input{
     padding: 10px;
     width: 300px;
     height: 44.85px;
-    box-shadow: inset 0px 1px #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px 0px inset;
+    color : rgb(85, 85, 85);
+    font-size: 16px;
 }
 
 input:focus{
@@ -45,15 +47,15 @@ input:focus{
 }
 #username{
     margin-bottom: -1px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 
 
 #password{
     margin-top: 0;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     margin-bottom: 10px;
 }
 
@@ -64,7 +66,7 @@ input:focus{
     box-sizing: border-box;
     background-color: var(--login);
     color:white;
-    border-radius: 7.5px;
+    border-radius: 6px;
     border: solid 1px #3b84c3;
     font-size: large;
 }
@@ -85,7 +87,7 @@ input:focus{
     padding-bottom: 6px;
     text-decoration: none;
     display: block;
-    border-radius: 5px;
+    border-radius: 4px;
     margin-top: 20px;
     text-align: center;
     font-size: 0.9em;
