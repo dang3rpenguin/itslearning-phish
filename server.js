@@ -44,13 +44,8 @@ app.post('/login', (req, res)=>{
     //Redirect the user to the correct website.
     res.redirect(redirectwebsite);
 });
+
+
 app.listen(port, () => {
     console.log(`Running on port : ${port}`)
 })
-
-
-
-/*
-Perhaps, possible to grab jsessionid, then something like dns-poison, then use the redirect using the credentials, and jsessionid to log in?
-No-one would notice anything.
-*/
